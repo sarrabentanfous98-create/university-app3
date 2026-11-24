@@ -12,7 +12,7 @@ function StudentCard(props) {
   
 
   return (
-    <div className='container'>
+    <div className='student-card'>
       <div>
        <img src={props.image} alt="Image de l'étudiant" />
         <h1>Fiche Étudiant</h1>
@@ -35,7 +35,9 @@ function StudentCard(props) {
 
         <button onClick={toggle}>{coordonneesVisibles ? "Masquer les coordonnées" : "Afficher les coordonnées"}</button>
         <button onClick={() => props.supprimer(props.email)}>Supprimer</button>
-        <button onClick={() => props.modifier(props.email)}>Modifier</button>
+       <button onClick={() => props.modifier(props.email)}>
+  Modifier
+</button>
         <a href={"mailto: "+props.email}>
           <button>Contacter</button>
         </a>

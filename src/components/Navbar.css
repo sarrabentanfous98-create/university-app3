@@ -1,9 +1,33 @@
-nav{
-    background-color: rgb(163, 85, 54);
-    padding: 10px;
-    border-radius: 10px;
+
+.main-navbar {
+  background-color: #2563eb;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 15px 0;
 }
-a{
-    margin: 5%;
-    color: whitesmoke;
+
+.main-navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 7px;
+  transition: 0.3s;
+}
+
+.main-navbar a:hover {
+  background-color: #1d4ed8;
+  color: #dbeafe;
+}
+
+@media (max-width: 600px) {
+  .main-navbar {
+    gap: 5px;
+    flex-wrap: wrap;
+  }
 }

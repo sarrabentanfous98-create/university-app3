@@ -1,13 +1,14 @@
-import './Navbar.css'
 
-function Navbar(){
-    return(
-        <nav>
-            <a href="">Accueil</a>
-            <a href="">Etudient</a>
-            <a href="">Contact</a>
-        </nav>
-    );
+import './Navbar.css';
+
+function Navbar() {
+  return (
+    <nav className="main-navbar">
+      <a href="#">Accueil</a>
+      <a href="#">Etudiant</a>
+      <a href="#">Contact</a>
+    </nav>
+  );
 }
 
 export default Navbar;

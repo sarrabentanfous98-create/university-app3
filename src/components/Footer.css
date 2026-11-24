@@ -1,7 +1,25 @@
-a{
-    text-decoration: none;
-    font-weight: 600;
-    &:hover {
-        color: rgb(205, 102, 55);
-    }
+
+.main-footer {
+  background: #2563eb;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+.main-footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-footer a:hover {
+  color: #bfdbfe;
+  text-decoration: underline;
+}
+
+.main-footer p {
+  margin: 10px 0 0;
+  font-size: 15px;
 }
